@@ -11,6 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'PartsController@index');//route
+
+Route::match(['get','post'],'/parts/index', [
+    'uses' => 'PartsController@index',
+    'as' => 'parts.index'
+]);
