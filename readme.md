@@ -1,5 +1,25 @@
 # Laravel PHP Framework
 
+Use Laravel 5.2.
+Create content type: parts groups / parts.
+Addition attributes:
+- weight;
+- producer;
+- cost.
+
+Page for a view of parts:
+- left sidebar with filters:
+- groups of parts;
+- cost: from-to;
+- weight: from-to;
+- producer.
+Content Page:
+- list of parts (name + add. attributes + group);
+- paginnation.
+Use GitHub.
+
+# Laravel PHP Framework
+
 Работаем с Laravel 5.2.
 Необходимо создать таксономию / тип контента. Например, группы запчастей / запчасти.
 Доп. аттрибуты запчастей:
@@ -15,5 +35,4 @@
 - контентная область:
 - список запчастей (название + доп. аттрибуты + группа);
 - блок постраничной навигации.
-Исходный код разместить на GitHub или в Bitbucket. В README описать процесс установки и
-настройки.
+Исходный код разместить на GitHub.
